@@ -1,0 +1,13 @@
+version: 1.0.0
+
+variables:
+  global:
+    COMPOSER_BIN: $BUILD_DIR/vendor/bin
+
+events:
+  build:
+    steps:
+      - installation:
+          type: script
+          script:
+            - composer --no-interaction install

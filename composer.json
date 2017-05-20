@@ -1,0 +1,20 @@
+{
+    "name": "droath/project-x-acquia",
+    "description": "Acquia project type for project-x.",
+    "type": "project-x",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Travis Tomka",
+            "email": "underoathosx@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Droath\\ProjectX\\Acquia\\": "./src"
+        }
+    },
+    "require": {
+        "droath/project-x": "^0.2.2"
+    }
+}
